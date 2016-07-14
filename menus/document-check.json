@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle document-check",
+        "command": "document-check:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "document-check",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "document-check:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
